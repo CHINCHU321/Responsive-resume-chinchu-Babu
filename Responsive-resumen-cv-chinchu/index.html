@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Chinchu</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon' ></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/chinchu1.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">CHINCHU <b>BABU</b></h1>
+                                <h3 class="home__profession">Web developer</h3>
+
+                                <div>
+                                    <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Dowload Cv</a>
+                                </div>
+                            </div>   
+    
+    
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Al Falah St., Abu Dhabi, UAE
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> chinchubabuofficial@email.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +971 567303520
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxl-github home__icon' ></i>
+                                    <a href="https://github.com/CHINCHU321" target="_blank" class="social__link">
+                                        @ChinchuGithub</a>
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxl-linkedin home__icon' ></i>
+                                    <a href="https://www.linkedin.com/in/chinchu-babu-1568b51a3/" target="_blank" class="social__link">
+                                        @ChinchuLinkedIn</a>
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxs-briefcase home__icon' ></i>
+                                    <a href="https://personal-portfolio-theta-one.vercel.app/" target="_blank" class="social__link">
+                                        @ChinchuPortfolio</a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+                                    
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Bachelor of Technology</h3>
+                                    <span class="education__studies">APJ Abdul Kalam Technological University</span>
+                                    <span class="education__year">2016 - 2020</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Sass
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>React JS
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span>Bootstrap
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span>jQuery
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span> Redux
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Tailwind CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React Router
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Node.js
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Express
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span> MongoDB
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span> Git
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> GitHub
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Webpack
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span> npm
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Yarn
+                                </li><li class="skills__name">
+                                    <span class="skills__circle"></span> Babel
+                                </li>
+                            </ul>
+                           
+                        </div>
+                    </section>
+                       <!--========== CERTIFICATES ==========-->
+                       <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">ChatGPT clone workshop</h3>
+                                <p class="certificate__description">Cuvette • December 2023</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Webinar certificate in front-end development</h3>
+                                <p class="certificate__description">CodeClause • October 2023</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Front-end Development Libraries</h3>
+                                <p class="certificate__description">FreeCodeCamp • April 2023</p>
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Responsive Web Design</h3>
+                                <p class="certificate__description">FreeCodeCamp • March 2023</p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                                        <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Malayalam
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </section>
+                        
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Web Development Intern</h3>
+                                    <span class="experience__company">From  December 2023 to Januvary 2024 | CodeSoft</span>
+                                    <p class="experience__description"> 
+                                        <div><span class="skills__circle"></span>Currently working on an e-commerce website and Task Management App projects contributing to a 25% increase in project development speed compared to initial timelines.</div>   
+                                        <div><span class="skills__circle"></span>Using <b>React, Node.js, and MongoDB</b> as Web development frameworks and management systems, resulting in a 20% improvement in overall system efficiency and responsiveness.</div>
+                                        <div><span class="skills__circle"></span>Demonstrating expertise in writing clean, efficient, and maintainable code. Debugging and troubleshooting issues.</div>
+                                        <div><span class="skills__circle"></span>Implementing server-side logic, databases, and <b>APIs</b> to ensure proper functionality and data management, contributing to a 30% reduction in system downtimes and enhancing overall data security</div>
+                                        </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Web Development Intern</h3>
+                                    <span class="experience__company">From  November 2023 to December 2023 | CodeClause</span>
+                                    <p class="experience__description"> 
+                                        <div><span class="skills__circle"></span>Spearheaded web development initiatives, demonstrating high levels of responsibility, sincerity, and eagerness to learn, leading to a 20% acceleration in project timelines.</div>   
+                                        <div><span class="skills__circle"></span>Collaborated on web development projects, contributing to the successful completion of the Weather App, which achieved a 15% improvement in user engagement and received positive user feedback.</div>
+                                        <div><span class="skills__circle"></span>Displayed excellent coordination and communication skills, ensuring effective teamwork and project execution, resulting in a 30% reduction in project errors and a 25% increase in overall project efficiency.</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+<
+                    <!--========== Projects ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Projects</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Weather forecast app project<a href="https://github.com/CHINCHU321/CodeClauseInternship-weather-forcast-application-using-api" target="_blank" class="social__link">
+                                        (https://github.com/CHINCHU321/CodeClauseInternship-weather-forcast-application-using-api) </a></h3>
+                                                                        <span class="experience__company">From November 2023 to December 2023 | CodeSoft</span>
+                                    <p class="experience__description"> 
+                                        <div><span class="skills__circle"></span>Designed a weather forecast application using <b>React, CSS, and API integration</b>.</div>   
+                                        <div><span class="skills__circle"></span>Achieved a 25% increase in user engagement by delivering real-time weather updates.</div>
+                                        <div><span class="skills__circle"></span>Ensured a responsive design, enhancing accessibility across various devices.</div>
+                                        <div><span class="skills__circle"></span>Integrated external APIs, resulting in accurate and up-to-date weather information</div>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Dashboard project<a href="https://github.com/CHINCHU321/React-Dashboard-with-Ant-Design-UI" target="_blank" class="social__link">
+                                        project (https://github.com/CHINCHU321/React-Dashboard-with-Ant-Design-UI)</a></h3>
+                                     <span class="experience__company">From September 2023 to October 2023 | CodeSoft</span>
+                                    <p class="experience__description"> 
+                                        <div><span class="skills__circle"></span>Developed a <b>React Dashboard with Ant Design UI</b>, achieving a 30% improvement in real-time data visualization for enhanced decision-making and client management.</div>   
+                                        <div><span class="skills__circle"></span>Led the project, resulting in a 25% increase in user engagement by creating a <b>responsive dashboard with stats, interactive charts</b>, and real-time data through <b>API integration</b>.</div>
+                                        <div><span class="skills__circle"></span>Customized UI components, contributing to a 20% reduction in user-reported issues and ensuring an improved overall user experience.</div>
+                                        <div><span class="skills__circle"></span>Maintained brand consistency throughout the website, aligning the dashboard with the client's identity, and achieving positive feedback on design aesthetics.</div>
+
+                                    </p>
+                                </div>
+                            </div><div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Banking application (WIW bank)<a href="https://github.com/CHINCHU321/Wiw-Bank/" target="_blank" class="social__link">
+                                        (https://github.com/CHINCHU321/Wiw-Bank/)</a></h3>
+                                        <span class="experience__company">From November 2023 to December 2023</span>
+                                    <p class="experience__description"> 
+                                        <div><span class="skills__circle"></span>Designed a modern UI/UX banking website using <b>React.js and Tailwind CSS</b>, featuring savings accounts, loans, and investments.</div>   
+                                        <div><span class="skills__circle"></span>Implemented a responsive platform, improving website accessibility and achieving a 30% enhancement in user experience</div>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </section>
+                                  
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
